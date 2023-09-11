@@ -1,0 +1,111 @@
+:root {
+    --cor-primaria: #187408;
+    --cor-secundaria: #d3e6d0;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: var(--cor-primaria);
+}
+
+.navbar h1 {
+    font-size: 3em;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: var(--cor-primaria);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: var(--cor-secundaria);
+}
+
+.carousel-inner {
+    height: 80em;
+    width: 100%;
+}
+
+.carousel-inner img {
+    width: 100%;
+}
+
+#teamFoto img{
+    height: 35em;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+#sobre-o-restaurante,
+#cardapio{
+    background-color: var(--cor-secundaria);
+}
+
+.text-colored {
+    color: var(--cor-primaria);
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: var(--cor-primaria);
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: var(--cor-primaria);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+/* para tablet */
+@media (max-width: 820px) {
+
+    .carousel-inner {
+        height: 50em;
+        padding-top: 20px;
+    }
+
+    .carousel-inner img {
+        height: 50em;
+    }
+    
+    .navbar h1 {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .carousel-inner {
+        height: 40em;
+        padding-top: 20px;
+    }
+
+    .carousel-inner img {
+        height: 50em;
+    }
+
+    .navbar h1 {
+        font-size: 1.5em;
+    }
+}
